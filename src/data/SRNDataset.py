@@ -4,7 +4,8 @@ import torch.nn.functional as F
 import glob
 import imageio
 import numpy as np
-from util import get_image_to_tensor_balanced, get_mask_to_tensor
+
+from ..util import get_image_to_tensor_balanced, get_mask_to_tensor
 
 
 class SRNDataset(torch.utils.data.Dataset):

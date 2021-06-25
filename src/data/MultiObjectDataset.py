@@ -8,7 +8,7 @@ import torch
 import torch.nn.functional as F
 from torchvision import transforms
 
-from util import get_image_to_tensor_balanced, get_mask_to_tensor
+from ..util import get_image_to_tensor_balanced, get_mask_to_tensor
 
 
 class MultiObjectDataset(torch.utils.data.Dataset):
