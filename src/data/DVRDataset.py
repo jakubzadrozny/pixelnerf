@@ -5,7 +5,8 @@ import glob
 import imageio
 import numpy as np
 import cv2
-from util import get_image_to_tensor_balanced, get_mask_to_tensor
+
+from ..util import get_image_to_tensor_balanced, get_mask_to_tensor
 
 
 class DVRDataset(torch.utils.data.Dataset):
