@@ -1,0 +1,15 @@
+torch
+torchvision
+pretrainedmodels
+pyhocon
+imageio
+imageio-ffmpeg
+tensorboard
+dotmap
+numpy
+scipy
+scikit-image
+ipdb
+matplotlib
+tqdm
+lpips
